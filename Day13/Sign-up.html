@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="Sign-up.css">
+    <link rel="shortcut icon" href="./Media/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/74e6741759.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <form action="">
+            <i class="fa-solid fa-right-to-bracket" style="color: #222111;"></i>
+            <br>
+            <label for="FName">Enter First Name :</label>
+            <br>
+            <div class="namelogo">
+                <i class="fa-solid fa-user" style="color: #000000;"></i>
+                <input type="text" id="FName" required placeholder="Enter First Name">
+            </div>
+            <br>
+            <label for="LName">Last Name :</label>
+            <br>
+            <div class="namelogo">
+                <i class="fa-solid fa-user" style="color: #000000;"></i>
+                <input type="text" id="LName" required placeholder="Enter Last Name">
+            </div>
+            <br>
+            <label for="Mail">E-Mail :</label>
+            <br>
+            <div id="maillogo">
+                <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                <input type="email" name="" required id="Mail" placeholder="Enter Valid Email">
+            </div>
+            <br>
+            <label for="Mbno">Mobile No :</label>
+            <br>
+            <div id="mblogo">
+                <i class="fa-solid fa-mobile" style="color: #000000;"></i>
+                <input type="number" required name="" id="Mbno" placeholder="Enter Mobile Number">
+            </div>
+            <br>
+            <label for="DOB" >D.O.B :</label>
+            <br>
+            <input type="date" name="" id="DOB">
+            <br>
+            <div id="gender">
+                <Label>Gender :</Label>
+                <input type="radio" required name="sex" id="">Male
+                <input type="radio" required name="sex" id="">Female
+                <input type="radio" required name="sex" id="">Others
+            </div>
+            <br>
+            <div id="select">
+                <label for="Status">Status :</label>
+            <!-- <input type="submit"> -->
+            <select name="" id="">
+                <option value="" hidden>----Select----</option>
+                <option value="">Single</option>
+                <option value="">Married</option>
+                <option value="">Widow</option>
+            </select>
+            </div>
+            <br>
+            <div id="check">
+                <input type="checkbox" required name="" id="">I have read and understand T&C
+            <br>
+                <input type="checkbox" required name="" id="">I am 18+ &   accpting T&C
+            </div>
+            <br>
+            <label for="Cpass">Create Password :</label>
+            <br>
+            <div class="passlogo">
+                <i class="fa-solid fa-key" style="color: #000000;"></i>
+                <input type="password" name="" id="Cpass" placeholder="Enter Password" required>
+            </div>
+            <br>
+            <label for="Copass">Confirm Password :</label>
+            <br>
+            <div class="passlogo">
+                <i class="fa-solid fa-key" style="color: #000000;"></i>
+                <input type="password" name="" id="Copass" placeholder="Confirm Password" required>
+            </div>
+            <br>
+            <button id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url(./Media/back.png);
+}
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main form{
+    width: 30%;
+    background-color: white;
+    padding: 100px;
+    border-radius: 5px;
+} */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+form{
+    width: 30%;
+    background-color: rgb(235, 224, 80);
+    display: block;
+    border-radius: 10px;
+    margin: 20%;
+    padding: 20px;
+}
+#FName,#LName,#Mail,#Mbno,#DOB,#Cpass,#Copass{
+    width: 100%;
+    height: 30px;
+    margin: 4% 0%;
+    display: block;
+}
+#mblogo{
+    position: relative;
+}
+.fa-solid.fa-mobile{
+    position: absolute;
+    top: 24%;
+    left: 98%;
+}
+#maillogo{
+    position: relative;
+}
+.fa-solid.fa-envelope{
+    position: absolute;
+    top: 24%;
+    left: 97%;
+}
+.namelogo{
+    position: relative;
+}
+.fa-solid.fa-user{
+    position: absolute;
+    top: 24%;
+    left: 97%;
+}
+.passlogo{
+    position: relative;
+}
+.fa-solid.fa-key{
+    position: absolute;
+    top: 24%;
+    left: 97%;
+}
+#submit{
+    width: 60%;
+    height: 43px;
+    margin-left: 20%;
+    background-color: rgba(255, 127, 80, 0.589);
+    border-radius: 50px;
+    border-color: rgb(255, 140, 0);
+}
+#submit:hover{
+    background-color:rgb(255, 140, 0);
+    color: white;
+    border-color: black;
+}
+.fa-solid.fa-right-to-bracket{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    
+}
