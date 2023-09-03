@@ -1,0 +1,351 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    background-image:url(./Media/Netflixbackground.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+}
+header{
+    padding: 13px 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    width: 60%;
+    height: 10%;
+}
+#select{
+    position: relative;
+}
+.material-symbols-outlined{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: -81%;
+}
+
+#select-lang{
+    display: inline-block;
+    /* position: absolute; */
+    width: 101%;
+    border-radius: 7px;
+    padding: 7px 14px 7px 35px;
+    margin-left: -88%;
+    background-color: rgba(250, 235, 215, 0);
+    color: white;
+}
+header option{
+    color: black;
+}
+header #right #select button{
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    position: absolute;
+    width: 70%;
+    margin-left: 35px;
+    border-radius: 7px;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+/* cover  */
+
+body #cover {
+    text-align: center;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+body #cover #cover-center{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+}
+body #cover h1{
+    font-size: 3rem;
+    position: absolute;
+    font-weight: 900;
+    padding: 0%;
+    margin: 0%;
+    top: 27%;
+}
+body #cover p{
+    font-size: 1.5rem;
+    position: absolute;
+    font-weight: 400;
+    padding: 0%;
+    font-weight:lighter;
+    margin: 1rem 0 0;
+    top: 34%;
+}
+body #cover h3{
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: absolute;
+    line-height: 1.875rem;
+    padding: 0%;
+    margin: 1rem 0 0;
+    top: 41%;
+}
+/* cover email */
+#body #cover #min-in{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#mail{
+    position: absolute;
+    width: 379px;
+    height: 45px;
+    top: 59%;
+    left: 28%;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 8px;
+    border: 1px solid wheat;
+    color: white;
+}
+#btn{
+    position: absolute;
+    width: 15%;
+    padding: 10px 0px;
+    top: 59%;
+    left: 57%;
+    border-radius: 8px;
+    background-color: rgb(233, 30, 30);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* border */
+
+.line{
+    border-bottom:5px solid grey;
+}
+
+/* enjoy css  */
+#enjoy{
+    display: flex;
+    justify-content: space-between;
+}
+#enjoy div{
+    margin: 8% 0% 0% 10%;
+}
+body #enjoy h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+body #enjoy p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+body #enjoy video{
+    position: absolute;
+    width: 32%;
+    top: 129%;
+    left: 60%;
+}
+
+/* download */
+#download{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 5%;
+    /* position: relative; */
+}
+
+body #download div{
+    color: white;
+    /* margin: 10% 8% 0% 0%; */
+}
+body #download h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+body #download p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#words-down{
+    position: absolute;
+    top: 197%;
+    left: 38%;
+    margin: 0% 14% 0% 9%;
+}
+body #download #over-pic{
+    border-radius: 7px;
+    padding: 1rem;
+    width: 21%;
+    display: flex;
+    background-color: black;
+    height: 4rem;
+    top: 231%;
+    left: 17%;
+    border: 2px solid white;
+    position: absolute;
+}
+body #download #over-pic #words h3{
+    padding: 0%;
+    position: absolute;
+    top: 23%;
+    left: 24%;
+    margin: 0%;
+}
+body #download #over-pic #words h4{
+    padding: 0%;
+    color: rgb(6, 43, 255);
+    position: absolute;
+    top: 48%;
+    left: 24%;
+    margin: 0%;
+}
+body #download #over-pic #download-gif img{
+    position: absolute;
+    top: 8%;
+    left: 71%;
+    width: 79px;
+    height: 5rem;
+}
+
+/* device */
+
+#every{
+    display: flex;
+    justify-content: space-between; 
+}
+body #every #words-every{
+    color: white;
+    position: absolute;
+    margin-right:39rem;
+    margin-left: -4rem;
+    top: 269%;
+    left: 17%;
+}
+body #every #every-display{
+    color: white;
+    position: absolute;
+    top: 256%;
+    left: 49%;
+}
+body #every #every-display video{
+    position: absolute;
+    width: 147%;
+    height: 183px;
+    top: 14%;
+    left: -23%;
+}
+body #every #words-every h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+body #every #words-every p{
+    margin: 1rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/* create profile */
+
+body #profile{
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+body #profile #words{
+    position: absolute;
+    top: 349%;
+    left: 52%;
+    margin-right: 10%;
+}
+body #profile #pic img{
+    position: absolute;
+    top: 333%;
+    width: 48%;
+    height: 64%;
+    left: 4%;
+    margin-left: 0%;
+}
+body #profile #words h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+body #profile #words p{
+    color: white;
+    margin: 1rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+/* footer  */
+footer{
+    padding: 3.75rem 0;
+    margin: 0% 20% 0% 8%;
+}
+
+body footer #label{
+    color: white;
+}
+body footer #label a{
+    color: white;
+}
+
+footer #ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 15% 0% 9%;
+}
+footer ul{
+    padding: 0%;
+}
+footer #ul li{
+    color: white;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+footer #ul li a{
+    display: flex;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10% 0% 0% 0%;
+}
+.fa-solid.fa-globe{
+    
+    position: absolute;
+    top: 188.65rem;
+    left: 15%;
+    
+}
+#Select-lang {
+    background-color: rgba(255, 255, 255, 0.144);
+    color: white;
+    display: block;
+    position: absolute;
+    left: 14%;
+    width: 9%;
+    padding: 0.5% 0% 0.5% 3%;
+    border-radius: 5px;
+}
+footer p{
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.7);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 31px;
+    padding: 52px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
