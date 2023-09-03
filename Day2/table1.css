@@ -1,0 +1,15 @@
+table{
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+}
+
+th{
+    border: 2px solid blueviolet;
+}
+
+td{
+    text-align: center;
+    border: 2px solid blueviolet;
+    color: blue;
+}
+

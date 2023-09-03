@@ -1,0 +1,20 @@
+#facebook{
+    color: black;
+    text-decoration: none;
+}
+#youtube{
+    color: red;
+}
+#biryani{
+    width: auto;
+    height: 100px;
+}
+#pt{
+    width: 100px;
+    height: 100px;
+}
+iframe{
+
+    width: 100vh;
+    height: 100vh;
+}

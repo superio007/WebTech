@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(pink,rgb(226, 105, 105),rgb(240, 240, 63),rgb(19, 214, 225));
+}
+  
+video{
+    width: 100vh;
+    height: auto;
+}
+#head{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    transform: rotate(360deg);
+    border-radius: 50%;
+    transition: transform 174s;
+}
+h3{
+    color: blue;
+}
+ul{
+    list-style-type: square;
+}
+#ad,#ac,#tm{
+    color: red;
+}

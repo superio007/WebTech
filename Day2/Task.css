@@ -1,0 +1,62 @@
+table,th,td{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    color: chocolate;
+}
+
+#border{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.GT,#CSK,.LSG,#MI{
+    color: green;
+}
+
+tr{
+    color: red;
+}
+
+#gt{
+    color: blue;
+}
+
+#csk{
+    color: yellow;
+}
+
+#lsg{
+    color: aqua;
+}
+
+#mi{
+    color: rgb(16, 111, 219);
+}
+
+#rr{
+    color: rgb(255, 192, 203);
+}
+
+#rcb{
+    color: black;
+}
+
+#kkr{
+    color: rgb(187, 28, 187);
+}
+
+#pbks{
+    color: rgb(131, 5, 5);
+}
+
+#dc{
+    color: rgb(9, 77, 204);
+}
+
+#srh{
+    color: orangered;
+}

@@ -1,0 +1,67 @@
+/* table{
+    border: 5px solid blueviolet;
+    border-collapse: collapse;
+}
+
+th{
+    border: 2px solid blueviolet;
+    color: red;
+}
+
+td{
+    border: 2px solid blueviolet;
+    text-align: center;
+} */
+
+table,td,th{
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+}
+
+th{
+    color: red;  /* Tag selecector  or Element Selector*/
+}
+
+h1{
+    color: yellow;
+    
+}
+
+h2,h3{
+    color: palevioletred;  /*  Group Selector */
+}
+
+.Ind{
+    color: orangered;
+}
+
+.mi{ 
+    color: blue;  /* Class selecector */
+}
+
+.csk{
+    color: rgb(255, 255, 0);
+}
+
+#rcb{
+    color: rgba(196, 49, 13, 0.479);  /* ID  selecector */
+}
+
+.gt{
+    color :aqua;
+}
+
+#Mi_tm{
+    color: black;
+}
+
+
+/* ----------------------Notes -------------------*/
+
+/*  Selctors Preference 
+1st : Id
+2nd : Class :-> it should allways start from alphabet
+3rd : Element or Tag 
+4th : Grouping selectors
+5th : Global Selector
+ */

@@ -1,0 +1,15 @@
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    
+}
+a:hover{
+    color: red;
+    font-family: fantasy;
+    font-size: 50px;
+    transition : 5s;
+    text-shadow: 5px 5px 5px greenyellow;
+}

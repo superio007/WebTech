@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(white,rgb(226, 234, 9),rgb(10, 211, 54));
+}
+  
+#head{
+    color: red;
+    display: block;
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px  aqua;
+}
+#head:hover{
+    color: black;
+    text-shadow: none;
+}
+#self{
+    width: 150px;
+    height: auto;
+}
+#mail{
+    text-decoration: none;
+    color: black;
+}
+#mail:hover{
+    color: red;
+}
+td,th,tr,table{
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#pro{
+    text-align: center;
+}
+#skills{
+    text-align: center;
+}
+#skills:hover{
+    color: red;
+    text-transform: uppercase;
+    transition: 5s;
+}
+/* ol{
+    display: block;
+} */
+li:hover{
+    text-transform: uppercase;
+    color: red;
+}
+#declare{
+    text-align: right;
+    font-size: 25px;
+}
+#sign{
+    text-align: right;
+}
