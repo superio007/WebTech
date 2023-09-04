@@ -1,0 +1,244 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./Media/banner.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size:100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+header #left h1{
+    color: rgba(255, 255, 255, 0.596);
+    /* margin: 0%; */
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+header #left h1 span{
+    font-weight: 100;
+}
+header #right #hm {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+header #right #hm #drop{
+    position: relative;
+}
+header #right #hm #drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0%;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    width: 170%;
+    top: 105%;
+    left: -72%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+header #right #hm #drop #menu li a{
+    color: black;
+    display: block;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.137);
+    
+}
+header #right #hm #drop #menu li a:hover{
+    background-color: rgb(214, 92, 92);
+}
+header #right #hm #drop #menu #drop-sub{
+    position: relative;
+}
+#menu-sub{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    top: 0%;
+    left: -100%;
+    display: none;
+}
+#drop-sub:hover #menu-sub{
+    display: block;
+}
+header #right #hm li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+    
+}
+header  #right #hm li button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 5rem;
+    height: 2rem;
+}
+
+/* main  */
+
+#Alpha{
+    padding: 10;
+    text-align: center;
+    color: white;
+    /* margin:10em 0 18em 0; */
+    margin-top: 10rem;
+}
+#Alpha h1{
+    font-size: 3.5em;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+#Alpha p{
+    font-size: 1.25em;
+    margin-bottom: 1.75em;
+}
+#Alpha button{
+    border-radius: 6px;
+    border: none;
+    color: rgba(0, 0, 0, 0.651);
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 4em;
+    /* line-height: 4em; */
+    padding: 0 3em;
+    width: 14%;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-bottom: 8rem;
+}
+#Alpha #learn{
+    margin-left: 1rem;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 4em;
+    /* line-height: 3em; */
+    padding: 0 2em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+}
+#Alpha #learn:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+/* Intro */
+
+#Intro{
+    text-align: center;
+    background-color: rgb(255, 253, 253);
+    margin: auto;
+    border-radius: 7px;
+    padding: 52px;
+    width: 70%;
+}
+#Intro h2{
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+    color: #646464;
+    font-weight: 300;
+    margin: 0% 23%;
+}
+#Intro p{
+    font-size: 1.2rem;
+    border-top:  2px solid #64646462;
+    width: 60%;
+    margin: auto;
+    padding: 2rem 0rem;
+    color: #646464;
+}
+#Intro img{
+    width: 100%;
+}
+
+/* Icons */
+
+#Icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 7px;
+} 
+#Icons  p{
+    margin-bottom:10%;
+}
+#Icons #top #first{
+    border-radius: 100%;
+    background-color: #e89980;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
+.fa-solid.fa-bolt-lightning{
+    position: absolute;
+    top: 176%;
+    left: 422px;
+    font-size: xxx-large;
+}
+#Icons #top #top-first{
+    border-right: black;
+    border-bottom: black;
+}
+#Icons #top #second{
+    border-radius: 100%;
+    background-color: #90b0ba;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
+.fa-solid.fa-cloud{
+    position: absolute;
+    top: 219%;
+    left: 409px;
+    font-size: xxx-large;
+}
+#Icons #bottom #first{
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
+#Icons #bottom #second{
+    border-radius: 100%;
+    background-color: #e5cb95;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
