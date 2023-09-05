@@ -4,7 +4,7 @@ body{
     font-family: 'Source Sans 3', sans-serif;
     background-image: url(./Media/banner.jpg);
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: rgb(240,240,240);
     background-size:100%;
 }
 header{
@@ -154,8 +154,9 @@ header  #right #hm li button{
     background-color: rgb(255, 253, 253);
     margin: auto;
     border-radius: 7px;
-    padding: 52px;
+    padding: 52px 0px 0px 0px;
     width: 70%;
+    margin-bottom: 37px;
 }
 #Intro h2{
     font-size: 2.25em;
@@ -185,6 +186,7 @@ header  #right #hm li button{
     text-align: center;
     width: 70%;
     margin: auto;
+    background-color: white;
     border-radius: 7px;
 } 
 #Icons  p{
@@ -201,8 +203,8 @@ header  #right #hm li button{
 }
 .fa-solid.fa-bolt-lightning{
     position: absolute;
-    top: 176%;
-    left: 422px;
+    top: 180%;
+    left: 389px;
     font-size: xxx-large;
 }
 #Icons #top #top-first{
@@ -220,8 +222,8 @@ header  #right #hm li button{
 }
 .fa-solid.fa-cloud{
     position: absolute;
-    top: 219%;
-    left: 409px;
+    top: 221%;
+    left: 376px;
     font-size: xxx-large;
 }
 #Icons #bottom #first{
@@ -233,6 +235,12 @@ header  #right #hm li button{
     margin: 0 0 2em 0;
     width: 5.5em;
 }
+.fa-solid.fa-chart-area{
+    position: absolute;
+    top: 179%;
+    left: 922px;
+    font-size: xxx-large;
+}
 #Icons #bottom #second{
     border-radius: 100%;
     background-color: #e5cb95;
@@ -241,4 +249,132 @@ header  #right #hm li button{
     line-height: 5.5em;
     margin: 0 0 2em 0;
     width: 5.5em;
+}
+.fa-solid.fa-lock{
+    position: absolute;
+    top: 222%;
+    left: 923px;
+    font-size: xxx-large;
+}
+#top{
+    padding: 25px;
+}
+#bottom{
+    padding: 25px;
+}
+/* sign up */
+
+body #Sign-up h2{
+    font-weight: 300;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+}
+body #Sign-up p{
+    margin: 0 0 2em 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+body #Sign-up{
+    background: #e89980; 
+    color: white;
+    padding: 3.5em 0 4em 0;
+    text-align: center;
+}
+body #Sign-up #mail{
+    width: 20%;
+    border-radius: 6px;
+    height: 4em;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+}
+body #Sign-up #mail::placeholder{
+    color: #ffffff;
+    padding-left: 20px ;
+}
+body #Sign-up button{
+    height: 4em;
+    padding: 0em 3em;
+    border-radius: 6px;
+    border: 0;
+    margin-left: 12px;
+}
+/* cards */
+
+body #cards #cont img{
+    display: block;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    margin:0 6%;
+}
+#cont{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#cont div{
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 3em;
+    margin: 45px 0px 121px 0px;
+}
+#cont div h3{
+    text-align: center;
+}
+#cont div p{
+    text-align: center;
+    padding: 20px;
+}
+.button{
+    border-radius: 6px;
+    border: 1px solid #0000004d;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+    margin-left:168px;
+}
+.button:hover{
+    background-color: rgba(177, 171, 171, 0.349)
+}
+
+/* footer */
+
+footer{
+    padding: 4em 0 6em 0;
+}
+li{
+    list-style-type: none;
+    padding: 0%;
+}
+footer #ul ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+footer #ul ul li a{
+    text-decoration: dotted;
+    color: #00000060;
+}
+footer #icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 0 3em 0;
 }
