@@ -1,0 +1,508 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./Media/banner.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(240,240,240);
+    background-size:100%;
+}
+/* logo */
+#logo{
+    display: inline-block;
+    border: 2px solid transparent;
+    padding: 5px;
+    display: none;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+header #left h1{
+    color: rgba(255, 255, 255, 0.596);
+    /* margin: 0%; */
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+header #left h1 span{
+    font-weight: 100;
+}
+header #right #hm {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+header #right #hm #drop{
+    position: relative;
+}
+header #right #hm #drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0%;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    width: 170%;
+    top: 105%;
+    left: -72%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+header #right #hm #drop #menu li a{
+    color: black;
+    display: block;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.137);
+    
+}
+header #right #hm #drop #menu li a:hover{
+    background-color: rgb(214, 92, 92);
+}
+header #right #hm #drop #menu #drop-sub{
+    position: relative;
+}
+#menu-sub{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    top: 0%;
+    left: -100%;
+    display: none;
+}
+#drop-sub:hover #menu-sub{
+    display: block;
+}
+header #right #hm li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+    
+}
+header  #right #hm li button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 5rem;
+    height: 2rem;
+}
+
+/* main  */
+
+#Alpha{
+    padding: 10;
+    text-align: center;
+    color: white;
+    /* margin:10em 0 18em 0; */
+    margin-top: 10rem;
+}
+#Alpha h1{
+    font-size: 3.5em;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+#Alpha p{
+    font-size: 1.25em;
+    margin-bottom: 1.75em;
+}
+#Alpha button{
+    border-radius: 6px;
+    border: none;
+    color: rgba(0, 0, 0, 0.651);
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 4em;
+    /* line-height: 4em; */
+    padding: 0 3em;
+    width: 14%;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-bottom: 8rem;
+}
+#Alpha #learn{
+    margin-left: 1rem;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 4em;
+    /* line-height: 3em; */
+    padding: 0 2em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+}
+#Alpha #learn:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+/* Intro */
+
+#Intro{
+    text-align: center;
+    background-color: rgb(255, 253, 253);
+    margin: auto;
+    border-radius: 7px;
+    padding: 52px 0px 0px 0px;
+    width: 70%;
+    margin-bottom: 37px;
+}
+#Intro h2{
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+    color: #646464;
+    font-weight: 300;
+    margin: 0% 23%;
+}
+#Intro p{
+    font-size: 1.2rem;
+    border-top:  2px solid #64646462;
+    width: 60%;
+    margin: auto;
+    padding: 2rem 0rem;
+    color: #646464;
+}
+#Intro img{
+    width: 100%;
+}
+
+/* Icons */
+
+#Icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 52px 0px 0;
+} 
+#Icons h3{
+    margin-top: 0%;
+}
+#Icons  p{
+    margin-bottom:10%;
+}
+
+#Icons #top #first{
+    border-radius: 100%;
+    background-color: #e89980;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
+.fa-solid.fa-bolt-lightning{
+    position: absolute;
+    top: 185%;
+    left: 419px;
+    font-size: xxx-large;
+}
+
+#Icons #top #second{
+    border-radius: 100%;
+    background-color: #90b0ba;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
+.fa-solid.fa-cloud{
+    position: absolute;
+    top: 224%;
+    left: 406px;
+    font-size: xxx-large;
+}
+#Icons #bottom #first{
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
+.fa-solid.fa-chart-area{
+    position: absolute;
+    top: 184%;
+    left: 888px;
+    font-size: xxx-large;
+}
+#Icons #bottom #second{
+    border-radius: 100%;
+    background-color: #e5cb95;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 5.5em;
+    margin: 0 0 2em 0;
+    width: 5.5em;
+}
+.fa-solid.fa-lock{
+    position: absolute;
+    top: 224%;
+    left: 892px;
+    font-size: xxx-large;
+}
+#top{
+    padding: 25px;
+}
+#bottom{
+    padding: 25px;
+}
+/* sign up */
+
+body #Sign-up h2{
+    font-weight: 300;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+}
+body #Sign-up p{
+    margin: 0 0 2em 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+body #Sign-up{
+    background: #e89980; 
+    color: white;
+    padding: 3.5em 0 4em 0;
+    text-align: center;
+}
+body #Sign-up #mail{
+    width: 20%;
+    border-radius: 6px;
+    height: 4em;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+}
+body #Sign-up #mail::placeholder{
+    color: #ffffff;
+    padding-left: 20px ;
+}
+body #Sign-up button{
+    height: 4em;
+    padding: 0em 3em;
+    border-radius: 6px;
+    border: 0;
+    margin-left: 12px;
+}
+/* cards */
+
+body #cards #cont img{
+    display: block;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    margin:0 6%;
+}
+#cont{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#cont div{
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 3em;
+    margin: 45px 0px 121px 0px;
+}
+#cont div h3{
+    text-align: center;
+}
+#cont div p{
+    text-align: center;
+    padding: 20px;
+}
+.button{
+    border-radius: 6px;
+    border: 1px solid #0000004d;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+    margin-left:168px;
+}
+.button:hover{
+    background-color: rgba(177, 171, 171, 0.349)
+}
+
+
+/* footer */
+
+footer{
+    padding: 4em 0 6em 0;
+}
+li{
+    list-style-type: none;
+    padding: 0%;
+}
+footer #ul ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+/* error */
+footer #icons a:hover{
+    color: black;
+}
+footer #ul ul li a{
+    text-decoration: dotted;
+    color: #00000060;
+}
+footer #icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 0 3em 0;
+}
+
+
+/* Mobile code */
+
+@media(max-width:600px){
+    body{
+        background-size:190%;
+        background-position-x: center;
+    }
+    /* header{
+        display: none;
+    } */
+    #logo{
+        display: inline-block;
+        background-color: #6464643b;
+        width: 24px;
+        text-align: center;
+        margin-left: 8px;
+        margin-top: 8px;
+        border-radius: 6px;
+    }
+    header{
+        display: none;
+    }
+    #Alpha{
+        width: 70%;
+        margin: auto;
+        margin-top: 0rem;
+        margin-left: 138px;
+    }
+    #Alpha h1{
+        font-size: 2rem;
+    }
+    #Alpha p{
+        font-weight: 400;
+    }
+    #Alpha button{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #Alpha #learn{
+        width: 100%;
+        margin: 0%;
+    }
+    #Intro{
+        width: 139%;
+        margin-top: 4rem;
+        margin-bottom: 0;
+    }
+    #Intro h2{
+        font-size: 1.75em;
+        line-height: 1.35em;
+        letter-spacing: -0.025em;
+    }
+    #Icons{
+        display: block;
+        padding: 0%;
+        width: 138%;
+    }
+    .fa-solid.fa-bolt-lightning{
+        position: absolute;
+        top: 112%;
+        left: 250px;
+        font-size: xxx-large;
+    }
+    .fa-solid.fa-cloud{
+        position: absolute;
+        top: 146%;
+        left: 239px;    
+        font-size: xxx-large;
+    }
+    .fa-solid.fa-chart-area{
+        position: absolute;
+        top: 186%;
+        left: 244px;    
+        font-size: xxx-large;
+    }
+    .fa-solid.fa-lock{
+        position: absolute;
+        top: 219%;
+        left: 248px;
+        font-size: xxx-large;
+    }
+    
+    #Sign-up{
+        width: 139%;
+    }
+
+    /* cards */
+
+    #cards{
+        margin: -12%;
+        padding: 0%;
+    }
+    #cont{
+        display: inline-block;
+    }
+    #cont div{
+        margin: 0%;
+        width: 139%;
+    }
+    .button{
+        margin-left: 38%;
+    }
+    /* footer  */
+
+    #icons{
+        width: 142%;
+    }
+    #ul ul{
+        width: 130%;
+    }
+}
