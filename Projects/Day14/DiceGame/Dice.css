@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+#Main{
+    /* background-color: rgba(255, 255, 255, 0.288); */
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#name{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+#player{
+    color: red;
+}
+#player2{
+    color: yellow;
+}
+
+#res1{
+    color: yellow;
+    border: 2px solid darkgoldenrod;
+}
+
+#res2{
+    color: red;
+    border: 2px solid darkgoldenrod;
+}
+
+
+#Total{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px 0 45px;
+    font-size: 100px;
+}
+#Total p{
+    margin: 0%;
+    padding: 1px 25px;
+    border-radius: 15px;
+}
+#vs{
+    margin: 0 20px;
+}
+#vs h6{
+    display: inline;
+    margin: 0ch;
+    padding-top: 15px;
+}
+#vs #yellow {
+    color: yellow;
+}
+#vs #red{
+    color: red;
+}
+
+#choice{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    justify-content: center;
+    font-size: 30px;
+}
+#c1{
+    color: rgb(126, 47, 47);
+}
+
+#c2{
+    margin-right:85px;
+    color: red;
+}
+
+#c3{
+    margin-left:45px;
+    color: blue;
+}
+#c4{
+    color: green;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+#btn button{
+    padding: 10px 45px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 0ch;
+    border-radius: 5px;
+}
+
+#res{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#res p{
+    margin: 10px 0;
+}

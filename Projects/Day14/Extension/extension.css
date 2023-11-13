@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#cont {
+    /* justify-content: center;
+    align-items: center;  */
+    margin: 5% 20%;
+    padding: 2rem 2rem 20rem 2rem;
+    text-align: center;
+    background-color: blue;
+    gap: 1rem;
+}
+
+#cont #block input{ 
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5%;
+}
+
+#cont #block {
+    justify-content: center;
+    align-items: center; 
+}
+
+#cont #block button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+
+#cont div ul{
+   list-style-type: none;  
+}
+
+#cont div ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
