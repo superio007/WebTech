@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ecommerce.css">
+    <title>E-Commerce</title>
+    <script src="https://kit.fontawesome.com/9d30cdf134.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/ecommerce.png" type="image/x-icon">
+    sc
+</head>
+<body>
+ <nav class="flex">
+    <div class="nav-left">
+        <!-- <a href="#"><img src="./images/ecommercelogo.svg" alt="Logo"></a> -->
+    </div>
+    <div class="nav-mid">
+        <ul class="flex list-undotted menu">
+            <li>
+                <a href = "#">Home</a>
+
+            </li>
+            <li class="male">
+                <a href = "#mens">Male</a>
+                <ul class="list-male list-undotted flex">
+                    <li><a href="#shirt">Shirt</a></li>
+                    <li><a href="#t-shirt">TShirt</a></li>
+                    <li><a href="#pants">Pants</a></li>
+                </ul>
+
+            </li>
+            <li class="female">
+                <a href = "#">Female</a>
+                <ul class="list-female list-undotted flex">
+                    <li><a href="#">Shirt</a></li>
+                    <li><a href="#">Saree</a></li>
+                    <li><a href="#">Pants</a></li>
+                </ul>
+
+            </li>
+            <li class="mobile">
+                <a href = "#">Mobile</a>
+                <ul class="list-mobile list-undotted flex"> 
+                    <li><a href="#">IPhone</a></li>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Feature</a></li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+    <div class="nav-right flex"> 
+        <button class="button-primary"><a href="./login.html" >Login</a></button>
+        <button class="button-primary"><a href="./signup.html" >Sign-In</a></button>
+    </div>
+ </nav>
+<section id="cart">
+    <div id="cart-title">
+        <h4 id="x">X</h4>
+        <h2>Cart</h2>
+    </div>
+    <div id="cart-menu">
+       
+
+    </div>
+    <div id="cart-footer">
+         <h1 id="total">Total :</h1>
+         <div id="payment"></div>
+         <button>Make Payment</button>
+    </div>
+</section>
+
+
+
+
+ <header class="container flex">
+
+        <div class="img flex"><img id="img" src="./images/pic1.jpg" alt=""></div>
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-forward-step"></i>
+        <h2>Ready To Explore</h2>
+ </header>
+ <main>
+    <section class="mens" id="mens">
+        <div id="shirt">
+            <h2>Mens - Shirts</h2>
+            <div class="row shirtrow">
+            </div>
+           
+        </div>
+        <div id="t-shirt">
+            <h2>Mens - TShirt</h2>
+            <div class="row tshirtrow">
+            </div>
+            
+        </div>
+        <div id="pants">
+            <h2>Mens - Pants</h2>
+            <div class="row pantrow">
+
+            </div>
+           
+        </div>
+        
+    </section>
+ </main>
+ <script src="./ecommerce.js"></script>
+</body>
+</html>

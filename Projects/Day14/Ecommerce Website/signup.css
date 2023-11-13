@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    flex-direction: column;
+
+    gap: .5rem;
+    font-size: 1.2rem;
+   align-items: flex-start;
+    border-top-right-radius: 20%;
+    border: 2px solid rgb(90, 85, 85);
+    padding: 1rem;
+}
+.form input{
+    width:40%;
+    padding-left: 1rem;
+    height: 3rem;
+    border-radius: 5px;
+    outline: none;
+}

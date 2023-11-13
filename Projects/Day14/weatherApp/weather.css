@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+}
+main input,button{
+    width: 50%;
+    padding: 1rem  0;
+    margin: auto;
+    border: none;
+    border-radius: 30px;
+}
+
+main input{
+    width: 46%;
+    margin-bottom: 1rem;
+    background-color: black;
+    font-size: 1.4rem;
+    padding: 1rem;
+    
+    color: white;
+}
+main button{
+    border: 2px solid green;
+    cursor: pointer;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+    
+}
+main button:hover{
+   border: 2px outset red;
+   letter-spacing: 12px;
+   box-shadow: 0px 2px 6px 2px yellow;
+}
+main input::placeholder{
+    color: grey;
+   padding-left: 1rem;
+
+}
+main div{
+    background-color: rgb(194, 208, 180);
+    margin: 1rem;
+    padding: 1rem;
+   border-radius: 15px;
+   display: flex;
+   justify-content: space-around;
+   font-family: 'Courier New', Courier, monospace;
+   align-items: center;
+}
+span{
+    font-size: 1.3rem;
+    color: red;
+    font-weight: 700;
+}
